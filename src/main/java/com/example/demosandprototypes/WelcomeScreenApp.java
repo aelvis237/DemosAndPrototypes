@@ -38,7 +38,6 @@ public class WelcomeScreenApp extends Application {
 
     private void openProjectEditor() {
         // Code to open the project editor screen
-
         Stage primaryStage = (Stage) newProjectButton.getScene().getWindow();
         ProjectEditorScreen projectEditorScreen = new ProjectEditorScreen();
         Scene projectEditorScene = new Scene(projectEditorScreen.getRoot(), 800, 600);
@@ -56,6 +55,7 @@ public class WelcomeScreenApp extends Application {
     private void openDocumentation() {
         // Code to open documentation
     }
+
 
 
     public static void main(String[] args) {
